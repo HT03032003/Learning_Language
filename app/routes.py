@@ -18,7 +18,7 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.debug = True
 
 # --------------------------------------------------------------Cấu hình API key-------------
-
+genai.configure(api_key="AIzaSyApgUbygeBFmX7cXXIRdRmH9fo7d7FCZec")
 
 @app.route('/score_answer', methods=['POST'])
 def score_answer():
